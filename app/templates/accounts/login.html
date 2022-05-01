@@ -34,7 +34,7 @@
               </div>
             </div>
             <div class="card-body">
-              <form role="form" method="post" action="" class="text-start">
+              <form role="form" method="post" hx-post="{{ url_for('login') }}" hx-swap="outerHTML" hx-push-url="true" hx-target=".content"  class="text-start">
 
                 {{ form.hidden_tag() }} 
 
