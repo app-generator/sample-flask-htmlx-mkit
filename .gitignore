@@ -10,8 +10,11 @@ yarn-error.log
 env/
 env__/
 .vscode/symbols.json
-app/db.sqlite3
+*.sqlite3
+*.sqlite3-journal
 
 app/static/assets/node_modules
 app/static/assets/yarn.lock
 app/static/assets/.temp
+
+
