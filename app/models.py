@@ -3,10 +3,9 @@
 Copyright (c) 2019 - present AppSeed.us
 """
 
-from unicodedata import name
 from app         import db
 from flask_login import UserMixin
-from datetime import datetime
+from datetime    import datetime
 
 class Users(db.Model, UserMixin):
 
