@@ -4,11 +4,13 @@ Copyright (c) 2019 - present AppSeed.us
 """
 
 # Python modules
+from crypt import methods
 import os, logging 
 
 # Flask modules
 from flask               import render_template, request, url_for, redirect, send_from_directory,flash
 from flask_login         import login_user, logout_user, current_user, login_required
+from werkzeug.exceptions import HTTPException, NotFound, abort
 from jinja2              import TemplateNotFound
 
 # App modules
