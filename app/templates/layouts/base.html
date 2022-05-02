@@ -46,7 +46,9 @@
 
 <body class="{% block body_class %}{% endblock %} bg-gray-200">
 
-  {% block content %}{% endblock content %}  
+  <div class="content">
+    {% block content %}{% endblock content %}
+  </div>  
 
   {% include 'includes/footer.html' %} 
 
