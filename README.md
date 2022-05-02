@@ -10,7 +10,7 @@ Desing is provided by `Material Kit 2`, a modern Boostrap 5 desing (also free).
 - `Up-to-date` Dependencies
 - Tech Stack:
   - `Flask`: manages authentication and routing
-  - `HTMLx`: manages forms submit (no JS)
+  - `HTMLx`: manages forms: `Login`, `Register` and `Contact`
   - `Bootstrap 5`: UI & presentation layer
 - `Auth`: Sign IN, Sign UP
 - `Misc`: SQLite DB, SQLAlchemy, Forms Validation
