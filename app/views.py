@@ -4,17 +4,18 @@ Copyright (c) 2019 - present AppSeed.us
 """
 
 # Python modules
+from crypt import methods
 import os, logging 
 
 # Flask modules
-from flask               import render_template, request, url_for, redirect, send_from_directory
+from flask               import render_template, request, url_for, redirect, send_from_directory,flash
 from flask_login         import login_user, logout_user, current_user, login_required
 from werkzeug.exceptions import HTTPException, NotFound, abort
 from jinja2              import TemplateNotFound
 
 # App modules
 from app        import app, lm, db, bc
-from app.models import Users
+from app.models import Users,Contact
 from app.forms  import LoginForm, RegisterForm
 
 # provide login manager with load_user callback
@@ -133,3 +134,19 @@ def index(path):
 @app.route('/sitemap.xml')
 def sitemap():
     return send_from_directory(os.path.join(app.root_path, 'static'), 'sitemap.xml')
+
+
+# Contact form route
+
+@app.route('/contact-us.html',methods=['GET','POST'])
+def contact():
+    if request.method == 'POST':
+        name = request.form.get('name')
+        email = request.form.get('email')
+        message = request.form.get('message')
+
+        new_contact = Contact(name=name,email=email,message=message)
+        new_contact.save()
+        flash(f"Message sent {name.split(' ')[0]}!")
+        return redirect(url_for('contact'))
+    return render_template('home/contact-us.html')
