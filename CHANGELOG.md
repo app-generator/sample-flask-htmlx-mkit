@@ -1,5 +1,11 @@
 # Change Log
 
+## [1.0.5] 2022-05-22
+### Improvements
+
+- Added HTMLX support:
+  - Login / Register / Contact US
+
 ## [1.0.4] 2021-01-19
 ### Improvements
 
