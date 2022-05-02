@@ -200,8 +200,8 @@ Steps to deploy on **Heroku**
 
 ```bash
 $ # Clone the source code:
-$ git clone https://github.com/app-generator/flask-material-kit.git
-$ cd flask-material-kit
+$ git clone https://github.com/app-generator/sample-flask-htmlx-mkit.git
+$ cd sample-flask-htmlx-mkit
 $
 $ # Check Heroku CLI is installed
 $ heroku -v
@@ -274,4 +274,4 @@ Visit `http://localhost:8001` in your browser. The app should be up & running.
 <br />
 
 ---
-[Flask Material Kit](https://appseed.us/apps/flask-apps/flask-material-kit) - Provided by **AppSeed** [App Generator](https://appseed.us/app-generator).
+Flask HTMLX Material Kit - Provided by **AppSeed** [App Generator](https://appseed.us/app-generator).
