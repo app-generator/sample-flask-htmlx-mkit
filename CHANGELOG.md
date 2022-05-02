@@ -1,5 +1,11 @@
 # Change Log
 
+## [1.0.6] 2022-05-22
+### Fixes
+
+- Patch #1: Runtime `import error` on Windows caused by: 
+  - `from crypt import methods` - added by VsCode
+
 ## [1.0.5] 2022-05-22
 ### Improvements
 
