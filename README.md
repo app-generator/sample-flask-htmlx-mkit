@@ -43,7 +43,7 @@ Visit `http://localhost:85` in your browser. The app should be up & running.
 
 <br />
 
-![Flask Material Kit 2 - Starter provided by AppSeed.](https://user-images.githubusercontent.com/51070104/139474054-a223e8e0-d441-4f9f-8237-627a77bdd49c.gif)
+![Flask HTMLX Material Kit - Open-Source Sample provided by AppSeed.](https://user-images.githubusercontent.com/51070104/166261440-a298601e-8335-4527-aca9-af067b9d9d14.gif)
 
 <br />
 
