@@ -6,7 +6,7 @@
 
 > Features:
 
-- **Forms (`login`, `register`, `contact`) powered by HTMLX**
+- **Forms (`login`, `register`, `contact`) powered by [HTMLX](https://htmx.org/)**
 - `Up-to-date dependencies`
 - [SCSS compilation](#recompile-css) via **Gulp**
 - UI Kit: **Material Kit - v3.0.0** (Bootstrap 5 Version) by **Creative-Tim**
