@@ -1,4 +1,4 @@
-# Flask HTMLX Material Kit
+# [Flask HTMLX](https://blog.appseed.us/flask-htmlx-material-kit-design/) Material Kit
 
 `Open-Source` sample that uses **Flask and HTMLx** for the frontend logic. For newcomers, `Flask` is a leading web framework powered by Python and `HTMLx` is a lightweight JS utility library that allows accessing AJAX, CSS Transitions, WebSockets, and Server-Sent Events directly in HTML. 
 Desing is provided by `Material Kit 2`, a modern Boostrap 5 desing (also free).
@@ -274,4 +274,4 @@ Visit `http://localhost:8001` in your browser. The app should be up & running.
 <br />
 
 ---
-Flask HTMLX Material Kit - Provided by **AppSeed** [App Generator](https://appseed.us/app-generator).
+[Flask HTMLX](https://blog.appseed.us/flask-htmlx-material-kit-design/) Material Kit - Provided by **AppSeed** [App Generator](https://appseed.us/app-generator).
